@@ -34,5 +34,4 @@ public class BishopBlackTest {
         BishopBlack newFigure = new BishopBlack(Cell.C1);
         newFigure.way(Cell.G5);
     }
-
 }

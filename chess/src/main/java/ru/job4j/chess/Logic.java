@@ -45,5 +45,4 @@ public final class Logic {
         }
         throw new FigureNotFoundException();
     }
-
 }
