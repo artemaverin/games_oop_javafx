@@ -20,13 +20,13 @@ public class BishopBlackTest {
     public void whenBishopCopy() {
         BishopBlack bishopBlack = new BishopBlack(Cell.A1);
         Figure figure = bishopBlack.copy(Cell.A1);
-        assertThat(bishopBlack.position(),is(figure.position()));
+        assertThat(bishopBlack.position(), is(figure.position()));
     }
 
     @Test
     public void whenBishopWay() {
         BishopBlack bishopBlack = new BishopBlack(Cell.C1);
-        assertThat(bishopBlack.way(Cell.G5), is (new Cell[]{Cell.D2,Cell.E3,Cell.F4,Cell.G5}));
+        assertThat(bishopBlack.way(Cell.G5), is(new Cell[]{Cell.D2, Cell.E3, Cell.F4, Cell.G5}));
     }
 
     @Test

@@ -32,4 +32,5 @@ public class LogicTest {
         logic.add(new BishopBlack(Cell.B1));
         logic.move(Cell.B1, Cell.D3);
     }
+
 }
